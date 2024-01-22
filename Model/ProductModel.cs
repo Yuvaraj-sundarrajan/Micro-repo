@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 namespace UpdateWebapi.Model{
-public class Vehicle{
+public class VehicleModel{
     [Key]
     public int VehicleID{get;set;} 
     [Required]
